@@ -7,8 +7,7 @@
     "build": "webpack",
     "build:prod": "webpack --define process.env.NODE_ENV='\"production\"' --progress --colors --optimize-minimize --optimize-occurrence-order --optimize-dedupe",
     "watch": "webpack --watch",
-    "watch:dev": "webpack-dev-server --output-public-path=/build/",
-    "lint": "eslint src"
+    "watch:dev": "webpack-dev-server --output-public-path=/build/"
   },
   "author": "Andrew Kishino",
   "license": "ISC",

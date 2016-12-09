@@ -1,6 +1,6 @@
-const path = require('path');
-const autoprefixer = require('autoprefixer');
-const WebpackNotifierPlugin = require('webpack-notifier');
+const path = require('path')
+const autoprefixer = require('autoprefixer')
+const WebpackNotifierPlugin = require('webpack-notifier')
 
 module.exports = {
   context: __dirname,
@@ -53,4 +53,4 @@ module.exports = {
   plugins: [
     new WebpackNotifierPlugin()
   ]
-};
+}
