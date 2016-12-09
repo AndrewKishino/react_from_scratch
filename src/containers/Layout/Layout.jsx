@@ -1,20 +1,20 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import AppBar from 'material-ui/AppBar';
-import Drawer from 'material-ui/Drawer';
-import MenuItem from 'material-ui/MenuItem';
-import './Layout.scss';
+import React, { Component } from 'react'
+import { Link } from 'react-router'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import AppBar from 'material-ui/AppBar'
+import Drawer from 'material-ui/Drawer'
+import MenuItem from 'material-ui/MenuItem'
+import './Layout.scss'
 
 class Layout extends Component {
   constructor(props) {
-    super(props);
-    this.state = { open: false };
+    super(props)
+    this.state = { open: false }
   }
 
-  handleToggle = () => this.setState({ open: !this.state.open });
+  handleToggle = () => this.setState({ open: !this.state.open })
 
-  handleClose = () => this.setState({ open: false });
+  handleClose = () => this.setState({ open: false })
 
   render() {
     return (
@@ -36,8 +36,8 @@ class Layout extends Component {
           </Drawer>
         </MuiThemeProvider>
       </div>
-    );
+    )
   }
 }
 
-export default Layout;
+export default Layout
